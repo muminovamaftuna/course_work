@@ -1,0 +1,107 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f3f4f6;
+}
+
+.container {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 350px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+input {
+    margin: 8px 0;
+    padding: 10px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #3b82f6;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.btn-primary {
+    background-color: #3b82f6;
+    color: #fff;
+}
+
+button.btn-primary:hover {
+    background-color: #2563eb;
+}
+
+button.btn-success {
+    background-color: #10b981;
+    color: #fff;
+}
+
+button.btn-success:hover {
+    background-color: #059669;
+}
+
+button.btn-danger {
+    background-color: #ef4444;
+    color: #fff;
+}
+
+button.btn-danger:hover {
+    background-color: #dc2626;
+}
+
+.balance {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4b5563;
+    margin-bottom: 15px;
+}
+
+.transaction-controls {
+    margin-top: 15px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+#otpDisplay {
+    color: #555;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#transactionMessage {
+    margin-top: 15px;
+    font-weight: bold;
+}
